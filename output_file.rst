@@ -38,7 +38,7 @@ Fail pannake peale **try**-plokki kinni.
 Olemasolevasse faili kirjutamine.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Olemasolevasse faili kirjutamiseks tuleb esmalt kontrollida, kas see eksisteerib. Kui fail eksisteerib saab fail juurde kirjutada luues ``BufferedWriter`` kasutades lisaparameetrit ``StandardOpenOption.APPEND``.
+Olemasolevasse faili kirjutamiseks tuleb esmalt kontrollida, kas see eksisteerib. Faili saab teksti lisada, luues ``BufferedWriter`` objekti koos lisaparameetriga ``StandardOpenOption.APPEND``.
 
 .. code-block:: java
 
